@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+
+
+    <form action="">
+
+        <fieldset>
+            <legend>
+            <div>
+                <label for="name">Név</label>
+                <input id="name" name="name" type="text">
+            </div>
+        </legend>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email">
+            </div>
+            <div>
+                <label for="adr">Adr</label>
+                <input id="adr" name="adr" type="text">
+            </div>
+            <div>
+                <label for="comment">Text</label>
+                <textarea id="comment" name="comment"></textarea>
+            </div>
+
+            <div>
+                <label for="hir">Hírlevél</label>
+                <input id="hir" name="comment" type="checkbox">
+            </div>
+            
+        </fieldset>
+
+        <fieldset>
+                <legend>
+            <h2>GYakoriság</h2>
+        </legend>
+            <div class="a">
+                <label for="gyak">heti</label>
+                <input id="gyak" name="gyak" type="radio">
+
+                <label for="gyak">Havi</label>
+                <input id="gyak" name="gyak" type="radio">
+            </div>
+        </fieldset>
+
+
+    </form>
+
+<script src="main.js"></script>
+</body>
+
+</html>
